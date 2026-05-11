@@ -1,0 +1,41 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/resources/archetype-resources/google-chrome-for-testing-linux64/
+!**/src/main/resources/archetype-resources/chromedriver-linux64/
+!**/src/main/resources/archetype-resources/google-chrome-for-testing-win64/
+!**/src/main/resources/archetype-resources/chromedriver-win64/
+!**/src/main/resources/archetype-resources/google-chrome-for-testing-mac-arm64/
+!**/src/main/resources/archetype-resources/chromedriver-mac-arm64/
+!**/src/main/resources/archetype-resources/google-chrome-for-testing-mac-x64/
+!**/src/main/resources/archetype-resources/chromedriver-mac-x64/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/resources/architecture.html
+
+### VS Code ###
+.vscode/
+
+### Operating System Files ###
+*.DS_Store
+Thumbs.db
